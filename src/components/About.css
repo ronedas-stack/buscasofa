@@ -7,3 +7,24 @@
   border-radius: 8px;
   box-shadow: 0 2px 12px rgba(37, 69, 71, 0.12);
 }
+
+#info p {
+  margin: 0 0 1rem;
+  font-weight: 600;
+}
+
+.about-list {
+  list-style: disc inside;
+  margin: 0;
+  padding: 0;
+}
+
+.about-list li {
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+}
+
+.about-list li strong {
+  display: block;
+  margin-bottom: 0.25rem;
+}

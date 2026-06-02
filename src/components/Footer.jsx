@@ -5,11 +5,10 @@ const Footer = () => {
     <div>
         <h2>Miembros del equipo:</h2>
         <ul>
-            <li>Javier García</li>
-            <li>Javier López</li>
-            <li>Javier Martínez</li>
-            <li>Javier Pérez</li>
-            <li>Javier Rodríguez</li>
+            <li>Francisco Manuel Villarraso Macías</li>
+            <li>Gabriela Alejandra Loero Rodríguez</li>
+            <li>Javier Almagro Camacho</li>
+            <li>Miguel Serra Molina</li>            
         </ul>
     </div>
   )

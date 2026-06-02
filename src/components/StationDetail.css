@@ -20,4 +20,66 @@
   background-color: var(--secondary);
   padding: 5px 10px;
   border-radius: 5px;
+}.history-section {
+  margin-top: 1.5rem;
+}
+
+.history-tables {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.history-table {
+  background: var(--background);
+  border: 1px solid var(--dark);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.history-table h4 {
+  margin-top: 0;
+  color: var(--secondary);
+}
+
+.history-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.history-table th,
+.history-table td {
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.prediction-button {
+  margin-top: 1rem;
+  padding: 0.8rem 1.2rem;
+  background: var(--primary);
+  color: var(--white);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.prediction-button:hover {
+  opacity: 0.95;
+}
+
+.prediction-message {
+  margin-top: 0.8rem;
+  font-weight: 600;
+  color: var(--dark);
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 1.2rem;
+  color: var(--white);
+  text-decoration: none;
+  background-color: var(--secondary);
+  padding: 5px 10px;
+  border-radius: 5px;
 }
